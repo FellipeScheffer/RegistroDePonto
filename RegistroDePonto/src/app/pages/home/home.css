@@ -1,0 +1,87 @@
+.corpo{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.container-bem-vindo{
+    height: 120px;
+    background-color: #06D6A1;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;              /* ativa flexbox */
+    flex-direction: column;     /* empilha os textos verticalmente */
+    justify-content: center;    /* centraliza verticalmente */
+    align-items: center;        /* centraliza horizontalmente */
+}
+
+.container-bem-vindo h1{
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.container-bem-vindo p{
+    font-size: 20px;
+    margin: 0;
+}
+
+.container-horario{
+    width: 220px;
+    height: 100px;
+    background-color: rgb(43,81,177,0.15);
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: flex;              /* ativa flexbox */
+    justify-content: center;    /* centraliza horizontal */
+    align-items: center;        /* centraliza vertical */
+}
+
+.botao-registrar{
+    width: 150px;
+    height: 60px;
+    background-color: #5596E2;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.botao-registrar:active {
+    /*transform: scale(0.95);*/       /* dá um leve “aperto” */
+    background-color: #4179C1;    /* escurece levemente */
+    box-shadow: inset 0 3px 5px rgba(0,0,0,0.2); /* efeito de pressão */
+}
+
+.container-registros{
+    width: 300px;
+    height: 320px;
+    background-color: rgb(43,81,177,0.15);
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.container-imagem{
+    width: auto;
+    height: 60px;
+    position: relative;
+}
+
+.logoff{
+    width: 60px;
+    transform: scaleX(-1);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
