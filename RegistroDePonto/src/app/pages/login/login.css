@@ -1,0 +1,71 @@
+body {
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.login-card {
+  background: #e9edf6;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.login-card h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.login-card input[type="email"],
+.login-card input[type="password"],
+.login-card button {
+  width: 100%;
+  padding: 0.9rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+/* Ajustes do botão */
+.login-card button {
+  background-color: #3b82f6;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  border: none;
+}
+
+.login-card button:hover {
+  background-color: #2563eb;
+}
+
+@media (max-width: 400px) {
+  .login-card {
+    padding: 1.5rem;
+    border-radius: 10px;
+  }
+
+  .login-card input[type="email"],
+  .login-card input[type="password"],
+  .login-card button {
+    padding: 0.8rem;
+    font-size: 0.95rem;
+  }
+}
